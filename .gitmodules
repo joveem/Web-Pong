@@ -1,0 +1,3 @@
+[submodule "JovDK"]
+	path = Assets/_JovDK
+	url = https://github.com/joveem/JovDK.git
