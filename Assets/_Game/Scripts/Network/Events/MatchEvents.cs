@@ -1,0 +1,102 @@
+using System;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+using NativeWebSocket;
+
+using JovDK.Debug;
+using JovDK.SafeActions;
+using JovDK.SerializingTools.Bson;
+using JovDK.SerializingTools.Json;
+
+using WebPong.Models.WebSocketEvents;
+public partial class NetworkManager
+{
+
+    public async void SendScoring(
+        int scoringPlayerIndex)
+    {
+
+        ScoringRequestEventData scoringEventData = new ScoringRequestEventData(scoringPlayerIndex);
+
+        await Send("match-register-scoring", scoringEventData);
+
+    }
+
+    public void ApplyScore(dynamic eventDataObject)
+    {
+
+        ScoreUpdateEventData eventData = ConvertEventData<ScoreUpdateEventData>(eventDataObject);
+
+        _gameManager.ApplyScore(eventData.PlayersScores);
+
+    }
+
+    public async void SendExplosion(
+        Vector3 explosionPosition,
+        Quaternion explosionRotation,
+        Vector3 explosionScale,
+        int senderPlayerIndex)
+    {
+
+        int receiverPlayerIndex = -1;
+
+        switch (senderPlayerIndex)
+        {
+
+            case 0:
+
+                receiverPlayerIndex = 1;
+                break;
+
+            case 1:
+
+                receiverPlayerIndex = 0;
+                break;
+
+            default:
+                {
+
+                    string debugText =
+                        "UNEXPECTED sender player index! " +
+                        "( senderPlayerIndex = " + senderPlayerIndex + " )";
+
+                    DebugExtension.DevLogError(debugText);
+
+                    break;
+
+                }
+
+        }
+
+        if (receiverPlayerIndex != -1)
+        {
+
+            BallExplosionEventData ballExplosionEventData = new BallExplosionEventData(
+                                                                explosionPosition,
+                                                                explosionRotation,
+                                                                explosionScale,
+                                                                receiverPlayerIndex);
+
+            await Send("match-ball-explosion", ballExplosionEventData);
+
+        }
+
+
+    }
+
+    public void ApplyExplosion(dynamic eventDataObject)
+    {
+
+        BallExplosionEventData eventData = ConvertEventData<BallExplosionEventData>(eventDataObject);
+
+        _gameManager.ApplyExplosion(
+            eventData.Position.ToVector3(),
+            Quaternion.Euler(eventData.EulerRotation.ToVector3()),
+            eventData.Scale.ToVector3());
+
+    }
+
+}
