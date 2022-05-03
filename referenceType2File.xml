@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-12-09T16:51:26-02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T16:51:26-02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T16:51:26-02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-12-09T16:51:26-02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2015-12-09T16:51:26-02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T16:51:26-02:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6148e48ed6b61d748b187d06d3687b83</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/ClonesManager.cs</fileName>
+    <timeStamp>2021-07-02T23:03:54-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a041d83486c20b84bbf5077ddfbbca37</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/ClonesManagerWindow.cs</fileName>
+    <timeStamp>2021-04-29T00:44:13-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>65daf17fbe5101b41977305639f30c65</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/ExternalLinks.cs</fileName>
+    <timeStamp>2021-04-29T00:44:13-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>11fdc6f78f8c965499a870ca06dca6bc</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/FileUtilities.cs</fileName>
+    <timeStamp>2021-04-29T00:44:13-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>24641be1c0410a745b529e61b508679f</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/Preferences.cs</fileName>
+    <timeStamp>2021-04-29T00:44:13-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ec8d3a1577179ef44815739178cf75b4</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/Project.cs</fileName>
+    <timeStamp>2021-04-29T00:44:13-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d3453b3f1a20ea148b5028f8556a7be5</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/UpdateChecker.cs</fileName>
+    <timeStamp>2021-07-02T23:07:39-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d8fb344b9abf5274abd744833474b087</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/ValidateCopiedFoldersIntegrity.cs</fileName>
+    <timeStamp>2021-07-02T23:02:37-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bf2888ff90706904abc2d851c3e59e00</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/AssetModBlock/EditorQuit.cs</fileName>
+    <timeStamp>2021-04-29T00:44:13-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>755e570bd21b39440a923056e60f1450</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/AssetModBlock/ParrelSyncAssetModificationProcessor.cs</fileName>
+    <timeStamp>2021-04-29T00:44:13-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>894412a5b602e6c4ba2cf2d01f4f92b5</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/NonCore/AskFeedbackDialog.cs</fileName>
+    <timeStamp>2021-04-29T00:44:13-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7191fa4bfa12ae749b27f73ed292eaf1</guid>
+    <fileName>Assets/ParrelSync/ParrelSync/Editor/NonCore/OtherMenuItem.cs</fileName>
+    <timeStamp>2021-04-29T00:44:13-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9d432a5d3d68af34aa3aefa93fc296c1</guid>
+    <fileName>Assets/Unity-Logs-Viewer/Reporter/MultiKeyDictionary.cs</fileName>
+    <timeStamp>2019-08-17T08:28:02-03:00</timeStamp>
+    <typeFullName>
+      <string>MultiKeyDictionary`3</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>600c02144c4813244abd262cbcbe8825</guid>
+    <fileName>Assets/Unity-Logs-Viewer/Reporter/Reporter.cs</fileName>
+    <timeStamp>2019-08-17T08:27:48-03:00</timeStamp>
+    <typeFullName>
+      <string>Images</string>
+      <string>Reporter</string>
+      <string>Reporter+_LogType</string>
+      <string>Reporter+Sample</string>
+      <string>Reporter+Log</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8c866050b2c752d488112993fd0ddfce</guid>
+    <fileName>Assets/Unity-Logs-Viewer/Reporter/ReporterGUI.cs</fileName>
+    <timeStamp>2019-08-17T08:27:58-03:00</timeStamp>
+    <typeFullName>
+      <string>ReporterGUI</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6767a180de870304caa2013b2772dd62</guid>
+    <fileName>Assets/Unity-Logs-Viewer/Reporter/ReporterMessageReceiver.cs</fileName>
+    <timeStamp>2019-08-17T08:27:52-03:00</timeStamp>
+    <typeFullName>
+      <string>ReporterMessageReceiver</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>639e2d9db58377f4997f7678b50e7e7a</guid>
+    <fileName>Assets/Unity-Logs-Viewer/Reporter/Editor/ReporterEditor.cs</fileName>
+    <timeStamp>2019-08-17T08:27:49-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fa24ce3e8b4a445479906686d9756911</guid>
+    <fileName>Assets/Unity-Logs-Viewer/Reporter/Test/Rotate.cs</fileName>
+    <timeStamp>2019-08-17T08:28:10-03:00</timeStamp>
+    <typeFullName>
+      <string>Rotate</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cac68c003767bec459aa60dc282ff67d</guid>
+    <fileName>Assets/Unity-Logs-Viewer/Reporter/Test/TestReporter.cs</fileName>
+    <timeStamp>2019-08-17T08:28:06-03:00</timeStamp>
+    <typeFullName>
+      <string>TestReporter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7d1748f6aac99794ca00fb410f0f9926</guid>
+    <fileName>Assets/_Game/Scripts/Game/InputManager.cs</fileName>
+    <timeStamp>2022-04-19T00:32:06.9719582-03:00</timeStamp>
+    <typeFullName>
+      <string>InputManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e25552b3b667fff49a098c31928c6ff9</guid>
+    <fileName>Assets/_Game/Scripts/Game/Ball/BallComponent/Ball.cs</fileName>
+    <timeStamp>2022-05-02T23:58:53.599972-03:00</timeStamp>
+    <typeFullName>
+      <string>Ball</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>75f61c85c23614a43b2805a19c168f0c</guid>
+    <fileName>Assets/_Game/Scripts/Game/Ball/BallComponent/BallEvents.cs</fileName>
+    <timeStamp>2022-04-27T06:43:49.2293425-03:00</timeStamp>
+    <typeFullName>
+      <string>Ball</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fbca6c6fc93a2aa429eb24059decbd44</guid>
+    <fileName>Assets/_Game/Scripts/Game/Ball/BallComponent/BallMovement.cs</fileName>
+    <timeStamp>2022-05-02T00:53:10.4501634-03:00</timeStamp>
+    <typeFullName>
+      <string>Ball</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>81bd9d5edeb973e4ab3b2c31d54e6d0e</guid>
+    <fileName>Assets/_Game/Scripts/Game/Ball/BallComponent/BallSetup.cs</fileName>
+    <timeStamp>2022-05-02T23:23:42.9086795-03:00</timeStamp>
+    <typeFullName>
+      <string>Ball</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>28393c30bc9264d458d5ce6fee1ea418</guid>
+    <fileName>Assets/_Game/Scripts/Game/Ball/BallView/BallView.cs</fileName>
+    <timeStamp>2022-05-02T23:58:42.0652232-03:00</timeStamp>
+    <typeFullName>
+      <string>BallView</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9a9ed0d7f3231ce4ebbfc5213664c08a</guid>
+    <fileName>Assets/_Game/Scripts/Game/GameManager/ComponentSetup.cs</fileName>
+    <timeStamp>2022-05-03T01:00:12.3484008-03:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>62ad3001dcab05248b6fc24cf4d32f39</guid>
+    <fileName>Assets/_Game/Scripts/Game/GameManager/GameManager.cs</fileName>
+    <timeStamp>2022-05-02T23:50:44.3603605-03:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1bdff448e4301714b874440a1fb3d9a1</guid>
+    <fileName>Assets/_Game/Scripts/Game/GameManager/MatchEvents.cs</fileName>
+    <timeStamp>2022-05-02T20:31:18.3608862-03:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>73f880f215498ca4086604d5d756c41d</guid>
+    <fileName>Assets/_Game/Scripts/Game/GameManager/MatchSetup.cs</fileName>
+    <timeStamp>2022-05-03T01:19:02.5962664-03:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>064d31888d58e074495cdbe1d35710a6</guid>
+    <fileName>Assets/_Game/Scripts/Game/GameManager/Movents.cs</fileName>
+    <timeStamp>2022-04-28T07:10:48.5071324-03:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cfda7cbf1114d00498acb55690ecdf03</guid>
+    <fileName>Assets/_Game/Scripts/Game/Player/PlayerView.cs</fileName>
+    <timeStamp>2022-04-20T06:43:11.4123173-03:00</timeStamp>
+    <typeFullName>
+      <string>PlayerView</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9c9502c706d39f543ada5b8d4d469803</guid>
+    <fileName>Assets/_Game/Scripts/Game/Player/PlayerComponent/Player.cs</fileName>
+    <timeStamp>2022-05-03T01:11:31.0538178-03:00</timeStamp>
+    <typeFullName>
+      <string>Player</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4c7dd5acc961bbd48b3a1befa90224bf</guid>
+    <fileName>Assets/_Game/Scripts/Game/Player/PlayerComponent/PlayerMovement.cs</fileName>
+    <timeStamp>2022-04-25T03:12:12.6430064-03:00</timeStamp>
+    <typeFullName>
+      <string>Player</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5656767b260ff014ba92bf67e0c4fbbb</guid>
+    <fileName>Assets/_Game/Scripts/Game/Player/PlayerComponent/PlayerSetup.cs</fileName>
+    <timeStamp>2022-05-03T01:12:10.0008963-03:00</timeStamp>
+    <typeFullName>
+      <string>Player</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e442531ef5ecddf45be62a87e0f7e639</guid>
+    <fileName>Assets/_Game/Scripts/Network/Connection.cs</fileName>
+    <timeStamp>2022-04-02T03:17:09.7185719-03:00</timeStamp>
+    <typeFullName>
+      <string>Connection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>69246e05246ae4c44b69b65f1f7d9457</guid>
+    <fileName>Assets/_Game/Scripts/Network/NetworkManager.cs</fileName>
+    <timeStamp>2022-05-02T23:58:09.3247568-03:00</timeStamp>
+    <typeFullName>
+      <string>NetworkManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6fda1ff9d82cd23449454cb9400b6550</guid>
+    <fileName>Assets/_Game/Scripts/Network/Events/Events.cs</fileName>
+    <timeStamp>2022-04-28T07:47:20.8265757-03:00</timeStamp>
+    <typeFullName>
+      <string>NetworkManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8405c5ddf352a4b40b36e457d54d367a</guid>
+    <fileName>Assets/_Game/Scripts/Network/Events/MatchEvents.cs</fileName>
+    <timeStamp>2022-05-02T01:00:50.3735885-03:00</timeStamp>
+    <typeFullName>
+      <string>NetworkManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b482d000438e0ee4b883e55d6e407b4b</guid>
+    <fileName>Assets/_Game/Scripts/Network/Events/MatchMovementEvents.cs</fileName>
+    <timeStamp>2022-04-29T05:32:02.7957418-03:00</timeStamp>
+    <typeFullName>
+      <string>NetworkManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9192313d053032846b397cc72cc12bec</guid>
+    <fileName>Assets/_Game/Scripts/Network/Events/MatchSetupEvents.cs</fileName>
+    <timeStamp>2022-05-02T23:36:34.9467727-03:00</timeStamp>
+    <typeFullName>
+      <string>NetworkManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b510444fc72a2234fa8d62da2539d179</guid>
+    <fileName>Assets/_Game/Scripts/Network/Events/MenuEvents.cs</fileName>
+    <timeStamp>2022-04-28T07:33:45.7339005-03:00</timeStamp>
+    <typeFullName>
+      <string>NetworkManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8de031feab8e48c49a85bfad2a63434e</guid>
+    <fileName>Assets/_Game/Scripts/Network/Events/MessageHandling.cs</fileName>
+    <timeStamp>2022-05-02T23:31:20.5531009-03:00</timeStamp>
+    <typeFullName>
+      <string>NetworkManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e2ba10dfb822ade4ca64b8553206c4bb</guid>
+    <fileName>Assets/_Game/Scripts/Network/Models/EventsModels.cs</fileName>
+    <timeStamp>2022-04-22T01:05:35.2669757-03:00</timeStamp>
+    <typeFullName>
+      <string>WebPong.Models.WebSocketEvents.SocketEvent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f43160cfc2ea79c4b8005355bdad6933</guid>
+    <fileName>Assets/_Game/Scripts/Network/Models/MatchEventsModels.cs</fileName>
+    <timeStamp>2022-05-02T00:54:56.8076264-03:00</timeStamp>
+    <typeFullName>
+      <string>WebPong.Models.WebSocketEvents.ScoringRequestEventData</string>
+      <string>WebPong.Models.WebSocketEvents.ScoreUpdateEventData</string>
+      <string>WebPong.Models.WebSocketEvents.BallExplosionEventData</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b70b424a49e425445b885a512dd2dadb</guid>
+    <fileName>Assets/_Game/Scripts/Network/Models/MatchMovementEventsModels.cs</fileName>
+    <timeStamp>2022-04-25T01:47:05.4387506-03:00</timeStamp>
+    <typeFullName>
+      <string>WebPong.Models.WebSocketEvents.PlayerPositionEventData</string>
+      <string>WebPong.Models.WebSocketEvents.BallStateEventData</string>
+      <string>WebPong.Models.WebSocketEvents.BallPositionEventData</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9ab29b5b349d78746a5079f4f8cc0576</guid>
+    <fileName>Assets/_Game/Scripts/Network/Models/MatchSetupEventsModels.cs</fileName>
+    <timeStamp>2022-04-27T08:41:15.8076136-03:00</timeStamp>
+    <typeFullName>
+      <string>WebPong.Models.WebSocketEvents.SetupMatchEventData</string>
+      <string>WebPong.Models.WebSocketEvents.StartMatchEventData</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>378e39771d5f6bb4eb9d3dea74a369ad</guid>
+    <fileName>Assets/_Game/Scripts/Network/Models/MenuEventsModels.cs</fileName>
+    <timeStamp>2022-04-27T08:39:39.5812357-03:00</timeStamp>
+    <typeFullName>
+      <string>WebPong.Models.WebSocketEvents.QueueEventData</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>921ac19b20867824cbc6d45a234de4b7</guid>
+    <fileName>Assets/_Game/Scripts/UI/Panels/DefaultPanel.cs</fileName>
+    <timeStamp>2022-04-19T00:18:03.7131751-03:00</timeStamp>
+    <typeFullName>
+      <string>DefaultPanel</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c3329ce255e1d93489ae31323c40610a</guid>
+    <fileName>Assets/_Game/Scripts/UI/Panels/MainMenuPanel.cs</fileName>
+    <timeStamp>2022-05-03T01:18:53.275267-03:00</timeStamp>
+    <typeFullName>
+      <string>MainMenuPanel</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5e0be9025fd383448b64812062e4db90</guid>
+    <fileName>Assets/_Game/Scripts/UI/Panels/MatchMenuPanel.cs</fileName>
+    <timeStamp>2022-05-03T01:05:45.3101137-03:00</timeStamp>
+    <typeFullName>
+      <string>MatchMenuPanel</string>
+      <string>PlayerIndexColor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>470d508b95c676840b2503bcbbf9ead0</guid>
+    <fileName>Assets/_Game/Scripts/UI/Panels/MatchScorePanel.cs</fileName>
+    <timeStamp>2022-05-02T22:33:43.3599667-03:00</timeStamp>
+    <typeFullName>
+      <string>PlayerIndexColor</string>
+      <string>MatchScorePanel</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0be86ab7e07859943b6242e826efdf1c</guid>
+    <fileName>Assets/_JovDK/Components/Physics/TriggerObject.cs</fileName>
+    <timeStamp>2022-02-28T00:11:35.2505114-03:00</timeStamp>
+    <typeFullName>
+      <string>TriggerObject</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3b3f56be0f8345348a4629ceba112252</guid>
+    <fileName>Assets/_JovDK/Controller/Language.cs</fileName>
+    <timeStamp>2022-04-24T22:34:39.5604465-03:00</timeStamp>
+    <typeFullName>
+      <string>Language</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>35470990d3eb0fc47853410981bb6137</guid>
+    <fileName>Assets/_JovDK/Controller/LanguageManager.cs</fileName>
+    <timeStamp>2022-02-28T00:53:03.3792565-03:00</timeStamp>
+    <typeFullName>
+      <string>LanguageManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>51f879a3684e83046a8958e038d15149</guid>
+    <fileName>Assets/_JovDK/Controller/LanguageSelector.cs</fileName>
+    <timeStamp>2022-02-28T00:53:03.3802325-03:00</timeStamp>
+    <typeFullName>
+      <string>LanguageSelector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>193bea1b5fd3c1049a24b4014721441f</guid>
+    <fileName>Assets/_JovDK/Controller/MultiLanguageText.cs</fileName>
+    <timeStamp>2022-02-28T00:53:03.3812167-03:00</timeStamp>
+    <typeFullName>
+      <string>MultiLanguageText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bb94789dd68489a458d8dad81fba39d8</guid>
+    <fileName>Assets/_JovDK/Controller/ServerManager.cs</fileName>
+    <timeStamp>2022-03-21T02:20:51.9064649-03:00</timeStamp>
+    <typeFullName>
+      <string>ServerManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e1b009fb9746cb242bdcc58ab1be976e</guid>
+    <fileName>Assets/_JovDK/Controller/VersionController.cs</fileName>
+    <timeStamp>2022-03-21T02:28:33.5919598-03:00</timeStamp>
+    <typeFullName>
+      <string>VersionController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>92127f42a65c82142bfe9fdeca8325fa</guid>
+    <fileName>Assets/_JovDK/Controller/Panels/PanelsManager.cs</fileName>
+    <timeStamp>2022-02-28T00:11:35.2534383-03:00</timeStamp>
+    <typeFullName>
+      <string>PanelsManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c986fad154ebdb946a89136ee79a153d</guid>
+    <fileName>Assets/_JovDK/Controller/Panels/PopUp.cs</fileName>
+    <timeStamp>2022-02-28T00:11:35.2544153-03:00</timeStamp>
+    <typeFullName>
+      <string>PopUp</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>39d76dea616d12842841f4bc6cd277c5</guid>
+    <fileName>Assets/_JovDK/Editor/HierarchyTools.cs</fileName>
+    <timeStamp>2022-02-28T00:53:03.3821863-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a6a0d4ef114fe5c4385fba0d2ad25d86</guid>
+    <fileName>Assets/_JovDK/Editor/Screenshot.cs</fileName>
+    <timeStamp>2022-05-03T02:09:50.3138408-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>94cc1efe5ad2a234b82d0e262a503403</guid>
+    <fileName>Assets/_JovDK/Models/Models.cs</fileName>
+    <timeStamp>2022-03-21T02:19:57.0562444-03:00</timeStamp>
+    <typeFullName>
+      <string>JovDK.Models.Models</string>
+      <string>JovDK.Models.Models+Login</string>
+      <string>JovDK.Models.Models+VersionRequest</string>
+      <string>JovDK.Models.Models+VersionResponse</string>
+      <string>JovDK.Models.Models+versionStatus</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>180d4fe87cc484740a21305677c1da51</guid>
+    <fileName>Assets/_JovDK/Models/Network/NetworkModels.cs</fileName>
+    <timeStamp>2022-04-29T05:03:30.7036178-03:00</timeStamp>
+    <typeFullName>
+      <string>JovDK.Models.Network.SerializableVector3</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>04d3bb73000bcdb438e7ad6dfdbf0cbf</guid>
+    <fileName>Assets/_JovDK/Tools/ButtonTools.cs</fileName>
+    <timeStamp>2022-02-28T00:11:35.256369-03:00</timeStamp>
+    <typeFullName>
+      <string>ButtonTools</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c97a1ca354611ab448722c2db049b516</guid>
+    <fileName>Assets/_JovDK/Tools/DebugExtension.cs</fileName>
+    <timeStamp>2022-03-31T02:54:50.9678883-03:00</timeStamp>
+    <typeFullName>
+      <string>JovDK.Debug.DebugExtension</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>93f7d678378da374d924ea798b6c73ef</guid>
+    <fileName>Assets/_JovDK/Tools/DebuggingTools.cs</fileName>
+    <timeStamp>2022-04-26T02:04:03.1236472-03:00</timeStamp>
+    <typeFullName>
+      <string>DebuggingTools</string>
+      <string>GoodCollors</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9fb3381064da5244cab86a8aedd50fd6</guid>
+    <fileName>Assets/_JovDK/Tools/DebugPanel.cs</fileName>
+    <timeStamp>2022-02-28T01:59:37.6749314-03:00</timeStamp>
+    <typeFullName>
+      <string>DebugPanel</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a528b8e18c4e43c4681b913049388e95</guid>
+    <fileName>Assets/_JovDK/Tools/MeshTools.cs</fileName>
+    <timeStamp>2022-02-28T00:11:35.2612489-03:00</timeStamp>
+    <typeFullName>
+      <string>MeshTools</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>09b38d7c7c164bb4c8947023f18790bb</guid>
+    <fileName>Assets/_JovDK/Tools/SafeActionsTools.cs</fileName>
+    <timeStamp>2022-05-02T23:58:46.8357486-03:00</timeStamp>
+    <typeFullName>
+      <string>JovDK.SafeActions.SafeActionsTools</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>98d0abf91c6a62743a24d3059f3ea047</guid>
+    <fileName>Assets/_JovDK/Tools/Extensions/Clonning.cs</fileName>
+    <timeStamp>2022-03-21T02:30:46.3663823-03:00</timeStamp>
+    <typeFullName>
+      <string>JovDK.SerializingTools.SerializingTools</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>29ecaebbbc6d60444a0496a88d50f48e</guid>
+    <fileName>Assets/_JovDK/Tools/Extensions/PopupTools.cs</fileName>
+    <timeStamp>2022-02-28T00:11:35.2602762-03:00</timeStamp>
+    <typeFullName>
+      <string>PopupTools</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>863a5aca1050e2741b3c19c55a6519aa</guid>
+    <fileName>Assets/_JovDK/Tools/Extensions/SerializingTools/Bson.cs</fileName>
+    <timeStamp>2022-04-28T07:28:35.7819378-03:00</timeStamp>
+    <typeFullName>
+      <string>JovDK.SerializingTools.Bson.BsonSerializingTools</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3155d457d7f348248a4b93d225d2a41c</guid>
+    <fileName>Assets/_JovDK/Tools/Extensions/SerializingTools/Byte.cs</fileName>
+    <timeStamp>2022-04-28T07:28:43.0091359-03:00</timeStamp>
+    <typeFullName>
+      <string>JovDK.SerializingTools.Byte.ByteSerializingTools</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0e4ceebc2d7aa50469cce3078b8334aa</guid>
+    <fileName>Assets/_JovDK/Tools/Extensions/SerializingTools/Json.cs</fileName>
+    <timeStamp>2022-04-28T07:28:26.5319368-03:00</timeStamp>
+    <typeFullName>
+      <string>JovDK.SerializingTools.Json.JsonSerializingTools</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>
