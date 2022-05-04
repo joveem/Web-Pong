@@ -35,6 +35,7 @@ public partial class NetworkManager
         SetEvent("match-start-round", StartRound);
         SetEvent("match-score-update", ApplyScore);
         SetEvent("match-ball-explosion", ApplyExplosion);
+        SetEvent("match-ping", ApplyPing);
 
         // ----- Match Movements events -----
         SetEvent("match-update-player-position", ApplyPlayerPosition);

@@ -3447,6 +3447,7 @@ MonoBehaviour:
   MaxHitDistance: 6.6
   MaxVelocity: 2
   MaxBallVelocity: 13
+  _latencyUpdatesPerSeconds: 8
   _ballExplosionParticlePrefab: {fileID: 198146752706458318, guid: 4dd02b5f854b6c84990fbeb810abffe4, type: 3}
 --- !u!1001 &575036825
 PrefabInstance:

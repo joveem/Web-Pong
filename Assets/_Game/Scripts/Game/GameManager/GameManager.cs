@@ -55,7 +55,8 @@ public partial class GameManager : MonoBehaviour
     public float MaxHitDistance = 3.3f;
     public float MaxVelocity = 2f;
     public float MaxBallVelocity = 5f;
-    [SerializeField] ParticleSystem _ballExplosionParticlePrefab;
+    [SerializeField, Space(10)] float _latencyUpdatesPerSeconds = 4f;
+    [SerializeField, Space(10)] ParticleSystem _ballExplosionParticlePrefab;
 
 
     void Start()
@@ -67,6 +68,16 @@ public partial class GameManager : MonoBehaviour
             _mainMenuPanel.ShowPanel();
 
         });
+
+        StartLatencyUpdate();
+
+    }
+
+    void StartLatencyUpdate()
+    {
+
+        float repeatRate = _latencyUpdatesPerSeconds / 1f;
+        InvokeRepeating("UpdateLatency", 1f, repeatRate);
 
     }
 

@@ -99,4 +99,20 @@ public partial class NetworkManager
 
     }
 
+    public async void SendPing(int pingId)
+    {
+
+        await Send("match-ping", pingId);
+
+    }
+
+    public void ApplyPing(object eventDataObject)
+    {
+
+        int eventData = int.Parse(eventDataObject.ToString());
+
+        _gameManager.ApplyPing(eventData);
+
+    }
+
 }

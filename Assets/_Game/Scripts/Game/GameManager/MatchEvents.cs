@@ -81,4 +81,36 @@ public partial class GameManager : MonoBehaviour
 
     }
 
+    public Dictionary<int, float> timeByPingId = new Dictionary<int, float>();
+
+    async void UpdateLatency()
+    {
+
+        int pingId = Random.Range(10000, 99999);
+
+        while (timeByPingId.ContainsKey(pingId))
+            pingId = Random.Range(10000, 99999);
+
+        timeByPingId.Add(pingId, Time.time);
+
+        _networkManager.SendPing(pingId);
+
+    }
+
+    public void ApplyPing(int pingId)
+    {
+
+        if (timeByPingId.TryGetValue(pingId, out float pingTimeValue))
+        {
+
+            float latencyTimeInSecond = Time.time - pingTimeValue;
+
+            _matchScorePanel.SetLatency(latencyTimeInSecond);
+
+            timeByPingId.Remove(pingId);
+
+        }
+
+    }
+
 }
