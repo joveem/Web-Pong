@@ -15,11 +15,11 @@ public partial class GameManager : MonoBehaviour
     public void SetupMatch(int localPlayerIndex, int controllerPlayerIndex)
     {
 
-        ResetPanels();
-        ResetScenario();
-
         _localPlayerIndex = localPlayerIndex;
         IsMatchStarted = true;
+
+        ResetScenario();
+        ResetPanels(_localPlayerIndex);
 
         _inputManager.IsControlEnable = true;
         SetCamaraView(_localPlayerIndex);
@@ -52,6 +52,7 @@ public partial class GameManager : MonoBehaviour
 
             _ball.ResetPosition(controllerPlayerIndex);
             _ball.ShowBallWithDrop();
+            _ball.RestartComponentInNewRound();
 
         });
 
@@ -72,32 +73,29 @@ public partial class GameManager : MonoBehaviour
 
     }
 
-    void ResetPanels()
+    void ResetPanels(int localPlayerIndex)
     {
 
         _matchScorePanel.DoIfNotNull(() =>
-        {
+            _matchScorePanel.ShowPanel());
 
-            _matchScorePanel.ShowPanel();
-
-        });
-        ResetScore();
+        ResetScore(localPlayerIndex);
 
     }
 
-    void ResetScore()
+    void ResetScore(int localPlayerIndex)
     {
 
         _matchScorePanel.DoIfNotNull(() =>
         {
 
-            _matchScorePanel.SetLocalPlayerPosition(_localPlayerIndex);
             _matchScorePanel.ResetPanel();
+            _matchScorePanel.SetLocalPlayerPosition(localPlayerIndex);
 
         });
 
-        _matchScorePanel.DoIfNotNull(() =>
-            _matchMenuPanel.SetLocalPlayerPosition(_localPlayerIndex));
+        _matchMenuPanel.DoIfNotNull(() =>
+            _matchMenuPanel.SetLocalPlayerPosition(localPlayerIndex));
 
     }
 
