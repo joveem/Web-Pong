@@ -117,7 +117,7 @@ public partial class Ball : MonoBehaviour
 
     }
 
-    public void RestartComponent()
+    public void RestartComponentInNewRound()
     {
 
         _isFirstRoundHit = true;

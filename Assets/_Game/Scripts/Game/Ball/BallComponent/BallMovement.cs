@@ -152,8 +152,6 @@ public partial class Ball : MonoBehaviour
 
         DebugExtension.DevLog(debugText);
 
-        _isFirstRoundHit = false;
-
         float xHitDistance = collision.transform.position.x - transform.position.x;
         float maxHitDistance = GameManager.instance.MaxHitDistance;
         float rebounceAngleFactor = xHitDistance / maxHitDistance;
@@ -243,6 +241,8 @@ public partial class Ball : MonoBehaviour
 
         }
 
+        _isFirstRoundHit = false;
+
     }
 
     void ApplyPlayerHitRotation(Quaternion baseRotation, float angleFactor, bool invertAngleFactor)
@@ -256,7 +256,7 @@ public partial class Ball : MonoBehaviour
         if (_isFirstRoundHit)
             mustRandomizeRebound = Mathf.Abs(angleFactor) < 0.09f;
 
-        if (_isFirstRoundHit && mustRandomizeRebound)
+        if (mustRandomizeRebound)
         {
 
             float maxAngleThird = _maxRebounceAngle / 3f;
@@ -265,10 +265,6 @@ public partial class Ball : MonoBehaviour
         }
         else
             rebounceAngle = _maxRebounceAngle * angleFactor;
-
-        // DebugExtension.DevLogWarning("_isFirstRoundHit = " + _isFirstRoundHit +
-        //     " | mustRandomizeRebound = " + mustRandomizeRebound +
-        //     " | rebounceAngle = " + rebounceAngle);
 
         Quaternion rebounceAngleOffSet = Quaternion.Euler(0f, rebounceAngle, 0f);
         Quaternion rebounceRotation = baseRotation * rebounceAngleOffSet;
@@ -280,10 +276,6 @@ public partial class Ball : MonoBehaviour
 
     void ApplyBallDestroing(int scoringPlayerIndex)
     {
-
-        // TODO:
-        // send ball explosion
-        // inclease opponent score
 
         if (scoringPlayerIndex >= 0)
         {
