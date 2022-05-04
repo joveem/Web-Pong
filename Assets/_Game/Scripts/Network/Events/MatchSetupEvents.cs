@@ -15,10 +15,10 @@ using WebPong.Models.WebSocketEvents;
 public partial class NetworkManager
 {
 
-    void SetupMatch(dynamic eventDataObject)
+    void SetupMatch(object eventDataObject)
     {
 
-        SetupMatchEventData eventData = ConvertEventData<SetupMatchEventData>(eventDataObject);
+        SetupMatchEventData eventData = ConvertEventObject<SetupMatchEventData>(eventDataObject);
 
         _mainMenuPanel.DoIfNotNull(() =>
         {
@@ -31,36 +31,36 @@ public partial class NetworkManager
 
     }
 
-    void StartRound(dynamic eventDataObject)
+    void StartRound(object eventDataObject)
     {
 
-        StartMatchEventData eventData = ConvertEventData<StartMatchEventData>(eventDataObject);
+        StartMatchEventData eventData = ConvertEventObject<StartMatchEventData>(eventDataObject);
 
         GameManager.instance.StartRound(eventData.CurrentPlayerIndex);
 
     }
 
-    void ShowMatchResultWin(dynamic eventDataObject)
+    void ShowMatchResultWin(object eventDataObject)
     {
 
-        ScoreUpdateEventData eventData = ConvertEventData<ScoreUpdateEventData>(eventDataObject);
+        ScoreUpdateEventData eventData = ConvertEventObject<ScoreUpdateEventData>(eventDataObject);
 
         GameManager.instance.MatchMenuPanel.ShowWinAlert(eventData.PlayersScores);
 
     }
 
-    void ShowMatchResultLose(dynamic eventDataObject)
+    void ShowMatchResultLose(object eventDataObject)
     {
 
-        ScoreUpdateEventData eventData = ConvertEventData<ScoreUpdateEventData>(eventDataObject);
+        ScoreUpdateEventData eventData = ConvertEventObject<ScoreUpdateEventData>(eventDataObject);
 
         GameManager.instance.MatchMenuPanel.ShowLoseAlert(eventData.PlayersScores);
 
     }
-    void ShowMatchResultWinByGiveUp(dynamic eventDataObject)
+    void ShowMatchResultWinByGiveUp(object eventDataObject)
     {
 
-        ScoreUpdateEventData eventData = ConvertEventData<ScoreUpdateEventData>(eventDataObject);
+        ScoreUpdateEventData eventData = ConvertEventObject<ScoreUpdateEventData>(eventDataObject);
 
         GameManager.instance.MatchMenuPanel.ShowWinAlert(eventData.PlayersScores, true);
 

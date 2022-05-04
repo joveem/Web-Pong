@@ -167,4 +167,11 @@ public partial class NetworkManager
 
     }
 
+    T ConvertEventObject<T>(object objectEventDataObject)
+    {
+
+        return JsonSerializingTools.ConvertJsonObjectToObject<T>(objectEventDataObject);
+
+    }
+
 }

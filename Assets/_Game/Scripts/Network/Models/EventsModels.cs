@@ -8,7 +8,7 @@ namespace WebPong.Models.WebSocketEvents
     {
 
         public string EventName = "UNDEFINED";
-        public dynamic EventData = null;
+        public object EventData = null;
 
     }
 

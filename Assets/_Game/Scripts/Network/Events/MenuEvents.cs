@@ -58,10 +58,10 @@ public partial class NetworkManager
 
     }
 
-    void EnteredQueueResponse(dynamic eventDataObject)
+    void EnteredQueueResponse(object eventDataObject)
     {
 
-        QueueEventData eventData = ConvertEventData<QueueEventData>(eventDataObject);
+        QueueEventData eventData = ConvertEventObject<QueueEventData>(eventDataObject);
 
         _mainMenuPanel.DoIfNotNull(() =>
         {
@@ -69,7 +69,7 @@ public partial class NetworkManager
             if (eventData.Success)
             {
 
-                DebugExtension.DevLog("Entered match queue failed!");
+                DebugExtension.DevLog("Entered match queue Success!");
 
                 _mainMenuPanel.ShowCancelButton();
                 _mainMenuPanel.SetStatusText("Searching for match...".ToColor(GoodCollors.green));
@@ -91,10 +91,10 @@ public partial class NetworkManager
 
     }
 
-    void ExitedQueueResponse(dynamic eventDataObject)
+    void ExitedQueueResponse(object eventDataObject)
     {
 
-        QueueEventData eventData = ConvertEventData<QueueEventData>(eventDataObject);
+        QueueEventData eventData = ConvertEventObject<QueueEventData>(eventDataObject);
 
         _mainMenuPanel.DoIfNotNull(() =>
         {

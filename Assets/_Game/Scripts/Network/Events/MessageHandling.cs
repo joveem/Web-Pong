@@ -16,7 +16,7 @@ using WebPong.Models.WebSocketEvents;
 public partial class NetworkManager
 {
 
-    Dictionary<string, Action<dynamic>> eventList = new Dictionary<string, Action<dynamic>>();
+    Dictionary<string, EventCallback> eventList = new Dictionary<string, EventCallback>();
     void SetupEvents()
     {
 
@@ -43,9 +43,10 @@ public partial class NetworkManager
 
     }
 
-
-    void SetEvent(string eventName, Action<dynamic> callback)
+    void SetEvent(string eventName, EventCallback eventCallback)
     {
+
+        var callback = new EventCallback(eventCallback);
 
         eventList.Add(eventName, callback);
 
@@ -54,12 +55,14 @@ public partial class NetworkManager
     void HandleSocketEvent(SocketEvent socketEvent)
     {
 
-        if (eventList.TryGetValue(socketEvent.EventName, out Action<dynamic> callback))
+        if (eventList.TryGetValue(socketEvent.EventName, out EventCallback callback))
             callback(socketEvent.EventData);
         else
             DebugExtension.DevLogWarning("UNEXPECTED EventName!".ToColor(GoodCollors.orange) +
                 " ( EventName = " + socketEvent.EventName + ")");
 
     }
+
+    public delegate void EventCallback(object eventDataObject);
 
 }

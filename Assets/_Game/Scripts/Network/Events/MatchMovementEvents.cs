@@ -26,10 +26,10 @@ public partial class NetworkManager
 
     }
 
-    void ApplyPlayerPosition(dynamic eventDataObject)
+    void ApplyPlayerPosition(object eventDataObject)
     {
 
-        PlayerPositionEventData eventdata = ConvertEventData<PlayerPositionEventData>(eventDataObject);
+        PlayerPositionEventData eventdata = ConvertEventObject<PlayerPositionEventData>(eventDataObject);
 
         _gameManager.ApplyPlayerPosition(eventdata.PlayerIndex, eventdata.DestinationPosition);
 
@@ -60,12 +60,12 @@ public partial class NetworkManager
 
     }
 
-    void ApplyBallState(dynamic eventDataObject)
+    void ApplyBallState(object eventDataObject)
     {
 
         DebugExtension.DevLogWarning("updating BallState!");
 
-        BallStateEventData eventdata = ConvertEventData<BallStateEventData>(eventDataObject);
+        BallStateEventData eventdata = ConvertEventObject<BallStateEventData>(eventDataObject);
 
         _gameManager.ApplyBallState(
             eventdata.CurrentControllerPlayerIndex,
@@ -74,10 +74,10 @@ public partial class NetworkManager
             eventdata.Velocity);
 
     }
-    void ApplyBallPosition(dynamic eventDataObject)
+    void ApplyBallPosition(object eventDataObject)
     {
 
-        BallPositionEventData eventdata = ConvertEventData<BallPositionEventData>(eventDataObject);
+        BallPositionEventData eventdata = ConvertEventObject<BallPositionEventData>(eventDataObject);
 
         _gameManager.ApplyBallPosition(
             eventdata.Position.ToVector3(),

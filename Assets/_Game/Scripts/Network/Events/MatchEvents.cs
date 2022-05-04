@@ -25,10 +25,10 @@ public partial class NetworkManager
 
     }
 
-    public void ApplyScore(dynamic eventDataObject)
+    public void ApplyScore(object eventDataObject)
     {
 
-        ScoreUpdateEventData eventData = ConvertEventData<ScoreUpdateEventData>(eventDataObject);
+        ScoreUpdateEventData eventData = ConvertEventObject<ScoreUpdateEventData>(eventDataObject);
 
         _gameManager.ApplyScore(eventData.PlayersScores);
 
@@ -87,10 +87,10 @@ public partial class NetworkManager
 
     }
 
-    public void ApplyExplosion(dynamic eventDataObject)
+    public void ApplyExplosion(object eventDataObject)
     {
 
-        BallExplosionEventData eventData = ConvertEventData<BallExplosionEventData>(eventDataObject);
+        BallExplosionEventData eventData = ConvertEventObject<BallExplosionEventData>(eventDataObject);
 
         _gameManager.ApplyExplosion(
             eventData.Position.ToVector3(),
